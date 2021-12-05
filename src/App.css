@@ -40,3 +40,31 @@ html {
 h1 {
   text-align: center;
 }
+
+.todo {
+  margin-top: 90px;
+  text-align: center;
+  color: #670067;
+}
+
+.add {
+  height: 40px;
+  width: 80px;
+  border-radius: 25px;
+  border: #670067 solid;
+  background-color: #f1f5dc;
+  color: #670067;
+  font-family: 'Oswald', serif;
+  font-size: 20px;
+}
+
+.remove {
+  height: 40px;
+  width: 80px;
+  border-radius: 25px;
+  border: #670067 solid;
+  background-color: #f1f5dc;
+  color: #670067;
+  font-family: 'Oswald', serif;
+  font-size: 20px;
+}
