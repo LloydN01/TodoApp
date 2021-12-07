@@ -8,9 +8,13 @@ const Form = ({inputText, todos, setTodos, setInputText}) => {
 
     const submitTodoHandler = (e) => {
         e.preventDefault();
-        setTodos([
-            ...todos, {text: inputText, completed: false, id: Math.random()*1000}
-        ]);
+        if(inputText !== ''){
+            setTodos([
+                ...todos, {text: inputText, completed: false, id: Math.random()*1000}
+            ]);
+        } else{
+            alert ("Enter a new task first!");
+        };
         setInputText("");
     };
 
