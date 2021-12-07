@@ -42,29 +42,35 @@ h1 {
 }
 
 .todo {
-  margin-top: 90px;
+  margin-top: 25px;
   text-align: center;
   color: #670067;
+  list-style-type: none;
 }
 
-.add {
-  height: 40px;
+.complete {
+  height: 30px;
   width: 80px;
   border-radius: 25px;
   border: #670067 solid;
   background-color: #f1f5dc;
   color: #670067;
   font-family: 'Oswald', serif;
-  font-size: 20px;
+  font-size: 15px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
 }
 
 .remove {
-  height: 40px;
+  height: 30px;
   width: 80px;
   border-radius: 25px;
   border: #670067 solid;
   background-color: #f1f5dc;
   color: #670067;
   font-family: 'Oswald', serif;
-  font-size: 20px;
+  font-size: 15px;
 }

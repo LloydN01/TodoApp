@@ -18,7 +18,6 @@ const Form = ({inputText, todos, setTodos, setInputText}) => {
         <form>
                 <input value={inputText} onChange={inputTextHandler} type="text" name="task" id="newTask" placeholder="Enter New Task"></input>
                 <input onClick={submitTodoHandler} type="submit" value="Submit" id="button"></input>
-                <input type="reset" id="button"></input>
             </form>
     );
 };
