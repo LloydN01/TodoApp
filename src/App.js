@@ -8,10 +8,11 @@ function App() {
   const [todos, setTodos] = useState([]);
   return (
     <div className="App">
-      <div className="header">
-            <h1>
-                What are we doing today?
-            </h1>
+      <div id="mainBackground">
+        <div className="header">
+              <h1>
+                 What are we doing today?
+              </h1>
         </div>
 
         <div className="taskBar">
@@ -21,6 +22,7 @@ function App() {
         <div className="list">
           <TodoList setTodos={setTodos} todos={todos}/>
         </div>
+      </div>
     </div>
   );
 }

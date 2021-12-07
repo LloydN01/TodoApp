@@ -1,5 +1,5 @@
 html {
-  background-color: #f1f5dc;
+  background-color: #fae5cf;
 }
 
 .App {
@@ -10,11 +10,11 @@ html {
   text-align: center;
   color: #670067;
   border-radius: 25px;
+  margin-top: 40px;
 }
 
 .taskBar {
   text-align: center;
-  margin-top: 50px
 }
 
 #newTask {
@@ -22,9 +22,17 @@ html {
   height: 30px;
   border-radius: 25px;
   border: #670067 solid;
-  background-color: #f1f5dc;
+  background-color: #fae5cf;
   font-family: 'Oswald', serif;
   text-align: center;
+  color: #670067;
+  font-size: 15px;
+  align-items: center;
+}
+
+#newTask::placeholder {
+  color: #670067;
+  opacity: 1;
 }
 
 #button {
@@ -32,9 +40,11 @@ html {
   width: 100px;
   border-radius: 25px;
   border: #670067 solid;
-  background-color: #f1f5dc;
+  background-color: #fae5cf;
   color: #670067;
   font-family: 'Oswald', serif;
+  display: block;
+  margin: 10px auto;
 }
 
 h1 {
@@ -42,6 +52,8 @@ h1 {
 }
 
 .todo {
+  font-size: 20px;
+  margin-right: 35px;
   margin-top: 25px;
   text-align: center;
   color: #670067;
@@ -53,7 +65,7 @@ h1 {
   width: 80px;
   border-radius: 25px;
   border: #670067 solid;
-  background-color: #f1f5dc;
+  background-color: #fae5cf;
   color: #670067;
   font-family: 'Oswald', serif;
   font-size: 15px;
@@ -62,6 +74,7 @@ h1 {
 .completed {
   text-decoration: line-through;
   opacity: 0.5;
+  font-style: italic;
 }
 
 .remove {
@@ -69,7 +82,7 @@ h1 {
   width: 80px;
   border-radius: 25px;
   border: #670067 solid;
-  background-color: #f1f5dc;
+  background-color: #fae5cf;
   color: #670067;
   font-family: 'Oswald', serif;
   font-size: 15px;
